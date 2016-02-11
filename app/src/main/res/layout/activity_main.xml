@@ -8,18 +8,21 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/androidparty"/>
+        android:src="@drawable/androidparty"
+        android:scaleType="centerCrop" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Happy Birthday Katherine!" />
+        android:text="Happy Birthday Katherine!"
+        android:textSize="36sp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:text="From, Aderlei!" />
+        android:text="From, Aderlei!"
+        android:textSize="36sp" />
 
 </RelativeLayout>
